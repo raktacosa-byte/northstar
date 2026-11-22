@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en" class="dark">
 <head>
@@ -1226,14 +1227,14 @@
         schemaVersion: 6,
         lastSaved: new Date().toISOString(),
         plan: {
-          biweeklyNetPaycheck: 1836.29,
+          biweeklyNetPaycheck: 0.00,
           paycheckAnchorDate: '2026-11-20',
-          paycheckReferenceNote: 'Nov 20 ref: Gross $2,170.29 | Taxes $334.00 | Net $1,836.29',
-          employmentTakeHome: 3978.63,
-          vaCompensation: 950.00,
+          paycheckReferenceNote: '',
+          employmentTakeHome: 0.00,
+          vaCompensation: 0.00,
           vaDepositDay: 1,
-          foodAllocation: 950.00,
-          gasEstimate: 150.00,
+          foodAllocation: 0.00,
+          gasEstimate: 0.00,
           checkingOpeningBalance: 0.00,
           checkingOpeningDate: '2026-11-20',
           cashAppOpeningBalance: 0.00,
@@ -1249,244 +1250,16 @@
         forecast: {
           selectedMonthIndex: 0,
           includeExpectedMilitary: false,
-          forecastMonths: createDefaultForecastMonths(300, 13)
+          forecastMonths: createDefaultForecastMonths(0, 13)
         },
-        bills: [
-          {
-            id: 'bill-1',
-            name: 'Mortgage — Part 1 (Preceding Final Paycheck)',
-            parentGroup: 'Monthly Mortgage ($1,702.54)',
-            dueDay: 1,
-            assignedPayday: '2026-11-20',
-            plannedPayDate: '2026-11-20',
-            timing: 'Final paycheck (prev mo)',
-            planned: 851.27,
-            actual: 851.27,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-2',
-            name: 'Mortgage — Part 2 (Current First Paycheck)',
-            parentGroup: 'Monthly Mortgage ($1,702.54)',
-            dueDay: 1,
-            assignedPayday: '2026-12-04',
-            plannedPayDate: '2026-12-04',
-            timing: 'First paycheck (due mo)',
-            planned: 851.27,
-            actual: 851.27,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-3',
-            name: 'Car Payment',
-            dueDay: 15,
-            assignedPayday: '2026-12-04',
-            plannedPayDate: '2026-12-04',
-            timing: 'Monthly',
-            planned: 541.96,
-            actual: 541.96,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-4',
-            name: 'Water',
-            dueDay: 20,
-            assignedPayday: '2026-12-18',
-            plannedPayDate: '2026-12-18',
-            timing: 'Estimate',
-            planned: 267.34,
-            actual: 267.34,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-5',
-            name: 'Xfinity',
-            dueDay: 12,
-            assignedPayday: '2026-12-04',
-            plannedPayDate: '2026-12-04',
-            timing: 'Monthly',
-            planned: 96.78,
-            actual: 96.78,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-6',
-            name: 'Electricity',
-            dueDay: 22,
-            assignedPayday: '2026-12-18',
-            plannedPayDate: '2026-12-18',
-            timing: 'Monthly',
-            planned: 240.00,
-            actual: 240.00,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-7',
-            name: 'YouTube Premium / Music',
-            dueDay: 10,
-            assignedPayday: '2026-12-04',
-            plannedPayDate: '2026-12-04',
-            timing: 'Monthly',
-            planned: 29.53,
-            actual: 29.53,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-8',
-            name: 'Amazon Prime',
-            dueDay: 14,
-            assignedPayday: '2026-12-04',
-            plannedPayDate: '2026-12-04',
-            timing: 'Monthly',
-            planned: 7.56,
-            actual: 7.56,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-9',
-            name: 'Cell Phones',
-            dueDay: 24,
-            assignedPayday: '2026-12-18',
-            plannedPayDate: '2026-12-18',
-            timing: 'Monthly',
-            planned: 284.29,
-            actual: 284.29,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-10',
-            name: 'Kids Allowance',
-            dueDay: 1,
-            assignedPayday: '2026-12-04',
-            plannedPayDate: '2026-12-04',
-            timing: 'Monthly',
-            planned: 30.00,
-            actual: 30.00,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-11',
-            name: 'Weight Loss Shots',
-            dueDay: 7,
-            assignedPayday: '2026-12-04',
-            plannedPayDate: '2026-12-04',
-            timing: 'Monthly',
-            planned: 258.00,
-            actual: 258.00,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          },
-          {
-            id: 'bill-12',
-            name: 'Affirm',
-            dueDay: 14,
-            assignedPayday: '2026-12-04',
-            plannedPayDate: '2026-12-04',
-            timing: 'Monthly',
-            planned: 49.73,
-            actual: 49.73,
-            amountPaid: 0.00,
-            paid: false,
-            datePaid: '',
-            extensionStatus: 'Not requested',
-            extensionAgreedDate: ''
-          }
-        ],
+        bills: [],
         incomeDeposits: [],
         transactions: [],
-        projects: [
-          {
-            id: 'proj-1',
-            title: 'Bathroom sink drain',
-            priority: 'High',
-            status: 'Planned',
-            estimatedCost: 150.00,
-            actualCost: 0.00,
-            costLabel: 'Next project',
-            notes: 'DIY; galvanized drain to ABS; verify connections',
-            archived: false
-          },
-          {
-            id: 'proj-2',
-            title: 'Porch soft wood',
-            priority: 'High',
-            status: 'Needs Inspection',
-            estimatedCost: 0.00,
-            actualCost: 0.00,
-            costLabel: 'TBD',
-            notes: 'Inspect structural condition before choosing repair',
-            archived: false
-          },
-          {
-            id: 'proj-3',
-            title: 'Bathroom floor near tub',
-            priority: 'High',
-            status: 'Needs Inspection',
-            estimatedCost: 0.00,
-            actualCost: 0.00,
-            costLabel: 'TBD',
-            notes: 'Investigate subfloor and moisture before flooring',
-            archived: false
-          },
-          {
-            id: 'proj-4',
-            title: 'Front door / jamb',
-            priority: 'Medium',
-            status: 'Needs Quote',
-            estimatedCost: 0.00,
-            actualCost: 0.00,
-            costLabel: 'TBD',
-            notes: 'Contractor likely; older nonstandard doorway',
-            archived: false
-          }
-        ],
+        projects: [],
         goals: [
-          { id: 'goal-1', name: 'Emergency Reserve', starting: 0.00, monthly: 0.00, target: 3000.00 },
-          { id: 'goal-2', name: 'Home Recovery Fund', starting: 0.00, monthly: 0.00, target: 2500.00 },
-          { id: 'goal-3', name: 'Relocation Fund', starting: 0.00, monthly: 0.00, target: 10000.00 }
+          { id: 'goal-1', name: 'Emergency Reserve', starting: 0.00, monthly: 0.00, target: 0.00 },
+          { id: 'goal-2', name: 'Home Recovery Fund', starting: 0.00, monthly: 0.00, target: 0.00 },
+          { id: 'goal-3', name: 'Relocation Fund', starting: 0.00, monthly: 0.00, target: 0.00 }
         ],
         security: {
           privacyMask: false,
@@ -1505,7 +1278,7 @@
       const legacyOtherVar =
         typeof rawForecast.otherVariable === 'number' && !Number.isNaN(rawForecast.otherVariable)
           ? rawForecast.otherVariable
-          : 300;
+          : 0;
 
       const targetCount = merged.plan.startMonth === '2026-11-01' ? 13 : 12;
       let forecastMonths;
@@ -1516,7 +1289,7 @@
         }));
       } else if (Array.isArray(rawForecast.forecastMonths) && rawForecast.forecastMonths.length === 12 && targetCount === 13) {
         forecastMonths = [
-          { index: 0, otherVariable: 300 },
+          { index: 0, otherVariable: 0 },
           ...rawForecast.forecastMonths.map((entry, idx) => ({
             index: idx + 1,
             otherVariable: Math.max(0, Number(entry?.otherVariable ?? legacyOtherVar) || 0)
@@ -1738,7 +1511,7 @@
       const p = appState.plan;
       const planner = appState.paycheckPlanner;
       const anchor = p.paycheckAnchorDate || '2026-11-20';
-      const stdNet = Number(p.biweeklyNetPaycheck) || 1836.29;
+      const stdNet = Number(p.biweeklyNetPaycheck) || 0;
       const horizonMonths = generateForecastMonthDates(p.startMonth);
       const lastHorizonMonth = horizonMonths[horizonMonths.length - 1] || '2027-11-01';
       const endLimit = addDaysISO(lastHorizonMonth, 45);
@@ -1831,7 +1604,7 @@
         }, 0);
 
         // Essential Gasoline reservation for this paycheck (defaults to half of monthly gas budget)
-        const defaultGas = Math.round(((Number(p.gasEstimate) || 150) / 2) * 100) / 100;
+        const defaultGas = Math.round(((Number(p.gasEstimate) || 0) / 2) * 100) / 100;
         const gasReserved =
           planner.gasAllocations[payday] !== undefined
             ? Number(planner.gasAllocations[payday]) || 0
@@ -1914,7 +1687,7 @@
 
       const threePaycheckMonths = Object.keys(payPeriodsByYM).filter((ym) => payPeriodsByYM[ym].length >= 3);
 
-      const stdBiweekly = Number(p.biweeklyNetPaycheck) || 1836.29;
+      const stdBiweekly = Number(p.biweeklyNetPaycheck) || 0;
       const avgMonthlyEmployment = (stdBiweekly * 26) / 12;
       const vaComp = Number(p.vaCompensation) || 0;
       const predictableIncome = avgMonthlyEmployment + vaComp;
@@ -2968,7 +2741,7 @@
         listEl.innerHTML = `
           <div class="p-6 rounded-2xl bg-obsidian/50 border border-dashed border-white/10 text-center space-y-1">
             <p class="text-xs text-slate-300 font-medium">No manual deposits recorded yet.</p>
-            <p class="text-[11px] text-slate-400">Your biweekly BECU Checking paychecks ($1,836.29 every 14 days from Nov 20 / Dec 4 / Dec 18, 2026) and $950 FridgeTax VA compensation generate automatically.</p>
+            <p class="text-[11px] text-slate-400">Configure your biweekly paycheck net amount and VA compensation in <strong>Settings</strong>, or log manual deposits above.</p>
           </div>
         `;
         return;
@@ -3658,60 +3431,7 @@
       // Load or Seed IndexedDB
       const existing = await RoadmapDB.getState();
       if (existing && existing.plan) {
-        let migrated = (existing.schemaVersion || 1) < 6;
-        if (migrated && existing.plan.startMonth === '2026-12-01') {
-          existing.plan.startMonth = '2026-11-01';
-          if (existing.forecast && Array.isArray(existing.forecast.forecastMonths) && existing.forecast.forecastMonths.length === 12) {
-            existing.forecast.forecastMonths = [
-              { index: 0, otherVariable: 300 },
-              ...existing.forecast.forecastMonths.map((m, i) => ({ index: i + 1, otherVariable: m.otherVariable }))
-            ];
-            existing.forecast.selectedMonthIndex = 0;
-          }
-        }
         appState = normalizeForecastState(existing);
-        if (migrated) {
-          const water = appState.bills.find((b) => b.id === 'bill-4');
-          const elec = appState.bills.find((b) => b.id === 'bill-6');
-          if (water && water.name === 'Water') water.timing = 'Estimate';
-          if (elec && elec.name === 'Electricity' && elec.timing === 'Estimate') elec.timing = 'Monthly';
-          if (!appState.bills.some((b) => b.id === 'bill-11' || b.name === 'Weight Loss Shots')) {
-            appState.bills.push({
-              id: 'bill-11',
-              name: 'Weight Loss Shots',
-              dueDay: 7,
-              assignedPayday: '2026-12-04',
-              plannedPayDate: '2026-12-04',
-              timing: 'Monthly',
-              planned: 258.00,
-              actual: 258.00,
-              amountPaid: 0.00,
-              paid: false,
-              datePaid: '',
-              extensionStatus: 'Not requested',
-              extensionAgreedDate: ''
-            });
-          }
-          if (!appState.bills.some((b) => b.id === 'bill-12' || b.name === 'Affirm')) {
-            appState.bills.push({
-              id: 'bill-12',
-              name: 'Affirm',
-              dueDay: 14,
-              assignedPayday: '2026-12-04',
-              plannedPayDate: '2026-12-04',
-              timing: 'Monthly',
-              planned: 49.73,
-              actual: 49.73,
-              amountPaid: 0.00,
-              paid: false,
-              datePaid: '',
-              extensionStatus: 'Not requested',
-              extensionAgreedDate: ''
-            });
-          }
-          appState.schemaVersion = 6;
-          await RoadmapDB.saveState(appState);
-        }
       } else {
         appState = getDefaultState();
         await RoadmapDB.saveState(appState);
@@ -4058,7 +3778,13 @@
           } else if (key === 'paycheckReferenceNote') {
             appState.plan[key] = e.target.value;
           } else {
-            appState.plan[key] = parseFloat(e.target.value) || 0;
+            const newVal = parseFloat(e.target.value) || 0;
+            const prevVal = Number(appState.plan[key]) || 0;
+            appState.plan[key] = newVal;
+            // Keep FridgeTax Food Allocation in sync with VA Compensation unless manually customized
+            if (key === 'vaCompensation' && (Number(appState.plan.foodAllocation) === prevVal || Number(appState.plan.foodAllocation) === 950)) {
+              appState.plan.foodAllocation = newVal;
+            }
           }
           await persistAndRender('Plan baseline updated');
         });
